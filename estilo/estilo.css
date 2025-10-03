@@ -1,0 +1,24 @@
+/* Matias Valle Trapiella UO300652*/
+/* Estilos generales del proyecto MotoGP-Desktop: ...*/
+
+/* Especificidad: 0-0-1 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff; /* Color de fondo de todos los elementos */
+    color: #000000;            /* Color de primer plano para el texto de todos los elementos */
+}
+
+/* Especificidad: 0-0-1 */
+header {
+    background-color: #3232e8;
+}
+
+/* Especificidad: 0-0-1 */
+h1{
+    color: #ffffff;
+}
+
+/* Especificidad: 0-0-2 */
+nav a{
+    color: #ffffff;
+}
