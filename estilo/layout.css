@@ -1,0 +1,45 @@
+/* Matias Valle Trapiella UO300652*/
+/* Reglas para aplicar esquemas de posicionamiento de los elementos del proyecto MotoGP-Desktop: ...*/
+
+header {
+    display: flex;    
+}
+
+header h1 {
+    margin-left: 1em;
+    margin-right: auto;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 3em; 
+}
+
+header nav a {
+    flex: 1;
+    margin-left: 2em;
+}
+
+video {
+ width:100%;
+ height:auto;
+}
+audio {
+ width:100%;
+}
+
+/* Media query para dispositivos móviles (320px - 799px) */
+@media (min-width: 320px) and (max-width: 799px) {
+    
+    /* Cambiar el Flexbox del header a vertical */
+    header, header h1, header nav {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+    
+    /* Ocultar migas de navegación en móviles */
+    header + p {
+        display: none; /* no se muestra en móviles */
+    }
+}
