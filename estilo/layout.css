@@ -28,13 +28,13 @@ header h1 {
 header nav {
     display: flex;
     align-items: center;
-    margin-right: 3em; 
+    margin-right: 2em;
 }
 
 /*Especificidad 003*/
 header nav a {
     flex: 1;
-    margin-left: 2em;
+    margin-left: 1.5em;
 }
 
 /* Media query para dispositivos móviles (320px - 799px) */
@@ -47,9 +47,14 @@ header nav a {
     }
     
     /* Ocultar migas de navegación en móviles */
-    header + p {
+    .breadcrumb {
         display: none; /* no se muestra en móviles */
     }
+
+    header nav a {
+        flex: 1;
+        padding: 0.5em;
+    }   
 
     video {
         width:100%;

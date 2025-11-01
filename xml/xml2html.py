@@ -12,30 +12,70 @@ import xml.etree.ElementTree as ET
 import os
 import re
 
+
 class Html:
     """
     Clase auxiliar para crear HTML estructurado con enlace a CSS.
     """
-    def __init__(self, titulo="Información del Circuito"):
-        self.titulo = titulo
+    def __init__(self):
+        # Estructura base del documento
         self.raiz = ET.Element("html", attrib={"lang": "es"})
+
+        # ---------- HEAD personalizado ----------
         self.head = ET.SubElement(self.raiz, "head")
-        ET.SubElement(self.head, "meta", attrib={"charset": "utf-8"})
+        self.head.append(ET.Comment("Datos que describen el documento"))
+        ET.SubElement(self.head, "meta", attrib={"charset": "UTF-8"})
+        ET.SubElement(self.head, "title").text = "InfoCircuito-MotoGP"
+        ET.SubElement(self.head, "meta", attrib={"name": "author", "content": "Matias Valle Trapiella"})
         ET.SubElement(self.head, "meta", attrib={
-            "name": "viewport", "content": "width=device-width, initial-scale=1.0"})
-        ET.SubElement(self.head, "title").text = self.titulo
-        ET.SubElement(self.head, "link", attrib={"rel": "stylesheet", "href": "estilo.css"})
+            "name": "description",
+            "content": "Información del circuito de MotoGp"
+        })
+        ET.SubElement(self.head, "meta", attrib={
+            "name": "keywords",
+            "content": "MotoGP, Chang International Circuit, Tailandia"
+        })
+        ET.SubElement(self.head, "meta", attrib={
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0"
+        })
+        ET.SubElement(self.head, "link", attrib={
+            "rel": "icon",
+            "type": "image/x-icon",
+            "href": "./multimedia/favicon-MotoGp.ico"
+        })
+        ET.SubElement(self.head, "link", attrib={
+            "rel": "stylesheet",
+            "type": "text/css",
+            "href": "estilo/estilo.css"
+        })
+        ET.SubElement(self.head, "link", attrib={
+            "rel": "stylesheet",
+            "type": "text/css",
+            "href": "estilo/layout.css"
+        })
+
+        # ---------- BODY con header y main ----------
         self.body = ET.SubElement(self.raiz, "body")
-        ET.SubElement(self.body, "h1").text = self.titulo
+
+        # Header con h1 y enlace
+        header = ET.SubElement(self.body, "header")
+        h1 = ET.SubElement(header, "h1")
+        a = ET.SubElement(h1, "a", attrib={"href": "index.html", "title": "Página de inicio"})
+        a.text = "MotoGP-Desktop"
+
+        # Main y h2 inicial
+        self.main = ET.SubElement(self.body, "main")
+        ET.SubElement(self.main, "h2").text = "Información del circuito"
 
     def add_parrafo(self, texto):
-        ET.SubElement(self.body, "p").text = texto
+        ET.SubElement(self.main, "p").text = texto
 
     def add_lista(self, items, enlaces=False):
         """
         Si 'enlaces=True', los elementos se interpretan como (texto, url) y se crean <a>.
         """
-        ul = ET.SubElement(self.body, "ul")
+        ul = ET.SubElement(self.main, "ul")
         for item in items:
             li = ET.SubElement(ul, "li")
             if enlaces and isinstance(item, tuple):
@@ -46,20 +86,22 @@ class Html:
                 li.text = item
 
     def escribir(self, nombre_archivo="InfoCircuito.html"):
+        # Indentar (Python 3.9+)
         arbol = ET.ElementTree(self.raiz)
         try:
-            ET.indent(arbol)  # Disponible desde Python 3.9
+            ET.indent(arbol)
         except AttributeError:
             pass
-        arbol.write(nombre_archivo, encoding="utf-8", xml_declaration=True)
+
+        # Añadir DOCTYPE manualmente
+        html_str = ET.tostring(self.raiz, encoding="unicode")
+        with open(nombre_archivo, "w", encoding="utf-8") as f:
+            f.write("<!DOCTYPE html>\n")
+            f.write(html_str)
         print(f"Archivo HTML generado: {nombre_archivo}")
 
 
 def construir_rutas_imagen(url_base):
-    """
-    Recibe una URL base (por ejemplo './multimedia/LineaDeMeta.jpg')
-    y devuelve un diccionario con las versiones Movil, Tablet y Monitor.
-    """
     raiz, ext = os.path.splitext(url_base)
     return {
         "movil": f"{raiz}Movil{ext}",
@@ -70,11 +112,6 @@ def construir_rutas_imagen(url_base):
 
 
 def formato_duracion_iso8601(duracion):
-    """
-    Convierte una duración ISO 8601 (como 'PT1M30.637S') en texto legible:
-    PT1M30S → '1 minuto 30 s'
-    PT2H5M → '2 horas 5 minutos'
-    """
     if not duracion or not duracion.startswith("P"):
         return duracion
 
@@ -110,9 +147,8 @@ def main():
         print("Error al leer el XML:", e)
         return
 
-    html = Html("Información del Circuito")
+    html = Html()
 
-    # Campos básicos del circuito
     campos = ["nombre", "longitud", "anchuraMedia", "fecha", "horaInicio",
               "numeroVueltas", "localidadProxima", "pais", "patrocinador",
               "vencedor", "tiempoVencedor"]
@@ -129,20 +165,18 @@ def main():
                 texto = f"{campo.capitalize()}: {valor}"
             html.add_parrafo(texto)
 
-    # Referencias (ahora con <a href="...">)
     referencias = []
     for ref in raiz.findall("u:referencias/u:referencia", ns):
         fuente = ref.attrib.get("fuente", "Desconocida")
         enlace = ref.attrib.get("enlace", "#")
         descripcion = ref.text.strip() if ref.text else ""
         texto = f"{fuente}: {descripcion}"
-        referencias.append((texto, enlace))  # Guardamos tupla (texto, url)
+        referencias.append((texto, enlace))
 
     if referencias:
         html.add_parrafo("Referencias:")
         html.add_lista(referencias, enlaces=True)
 
-    # Fotografías (usando <picture> responsivo)
     fotos = raiz.findall("u:fotografias/u:fotografia", ns)
     if fotos:
         html.add_parrafo("Fotografías:")
@@ -151,9 +185,7 @@ def main():
             descripcion = foto.attrib.get("descripcion", "Foto").strip()
             versiones = construir_rutas_imagen(url)
 
-            picture = ET.SubElement(html.body, "picture")
-
-            # Versiones específicas por tamaño
+            picture = ET.SubElement(html.main, "picture")
             ET.SubElement(picture, "source", attrib={
                 "media": "(max-width: 465px)",
                 "srcset": versiones["movil"]
@@ -171,17 +203,11 @@ def main():
                 "alt": descripcion
             })
 
-    # Videos (si existen)
-    videos = []
-    for video in raiz.findall("u:videos/u:video", ns):
-        url = video.attrib.get("url", "")
-        if url:
-            videos.append(url)
+    videos = [v.attrib.get("url", "") for v in raiz.findall("u:videos/u:video", ns) if v.attrib.get("url", "")]
     if videos:
         html.add_parrafo("Videos:")
         html.add_lista(videos)
 
-    # Clasificados
     clasificados = [c.text for c in raiz.findall("u:clasificados/u:clasificado", ns)]
     if clasificados:
         html.add_parrafo("Clasificados:")
