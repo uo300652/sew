@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Origen</name>
+      <description>Punto de origen</description>
+      <Point>
+        <coordinates>103.084631,14.958563,179.77</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 1</name>
+      <description>Punto de tramo 1</description>
+      <Point>
+        <coordinates>103.082247,14.95969,179.16</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 2</name>
+      <description>Punto de tramo 2</description>
+      <Point>
+        <coordinates>103.08347,14.964903,173.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 3</name>
+      <description>Punto de tramo 3</description>
+      <Point>
+        <coordinates>103.084025,14.968619,167.82</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 4</name>
+      <description>Punto de tramo 4</description>
+      <Point>
+        <coordinates>103.084777,14.968329,165.06</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 5</name>
+      <description>Punto de tramo 5</description>
+      <Point>
+        <coordinates>103.08369,14.960774,179.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 6</name>
+      <description>Punto de tramo 6</description>
+      <Point>
+        <coordinates>103.085667,14.958882,177.61</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 7</name>
+      <description>Punto de tramo 7</description>
+      <Point>
+        <coordinates>103.086256,14.9598,181.7</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 8</name>
+      <description>Punto de tramo 8</description>
+      <Point>
+        <coordinates>103.085879,14.9605,178.09</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 9</name>
+      <description>Punto de tramo 9</description>
+      <Point>
+        <coordinates>103.084886,14.960964,179.88</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 10</name>
+      <description>Punto de tramo 10</description>
+      <Point>
+        <coordinates>103.084669,14.961595,178.26</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 11</name>
+      <description>Punto de tramo 11</description>
+      <Point>
+        <coordinates>103.085056,14.964415,174.18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 12</name>
+      <description>Punto de tramo 12</description>
+      <Point>
+        <coordinates>103.086766,14.964663,174.6</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 13</name>
+      <description>Punto de tramo 13</description>
+      <Point>
+        <coordinates>103.087113,14.964016,85.96</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 14</name>
+      <description>Punto de tramo 14</description>
+      <Point>
+        <coordinates>103.08644,14.963282,177.2</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 15</name>
+      <description>Punto de tramo 15</description>
+      <Point>
+        <coordinates>103.086412,14.962486,177.81</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 16</name>
+      <description>Punto de tramo 16</description>
+      <Point>
+        <coordinates>103.086906,14.961632,176.85</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 17</name>
+      <description>Punto de tramo 17</description>
+      <Point>
+        <coordinates>103.087104,14.957483,177.75</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 18</name>
+      <description>Punto de tramo 18</description>
+      <Point>
+        <coordinates>103.084631,14.958563,179.78</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Chang International Circuit</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>103.084631,14.958563,179.77
+103.082247,14.95969,179.16
+103.08347,14.964903,173.0
+103.084025,14.968619,167.82
+103.084777,14.968329,165.06
+103.08369,14.960774,179.0
+103.085667,14.958882,177.61
+103.086256,14.9598,181.7
+103.085879,14.9605,178.09
+103.084886,14.960964,179.88
+103.084669,14.961595,178.26
+103.085056,14.964415,174.18
+103.086766,14.964663,174.6
+103.087113,14.964016,85.96
+103.08644,14.963282,177.2
+103.086412,14.962486,177.81
+103.086906,14.961632,176.85
+103.087104,14.957483,177.75
+103.084631,14.958563,179.78
+103.084631,14.958563,179.77</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

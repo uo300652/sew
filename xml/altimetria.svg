@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="600" viewBox="0 0 1000 600">
+  <polyline points="490.94,501.51 50.00,450.91 276.20,216.85 378.85,50.00 517.94,63.02 316.89,402.24 682.55,487.19 791.49,445.97 721.76,414.54 538.10,393.71 497.97,365.37 569.54,238.76 885.82,227.62 950.00,256.67 825.52,289.63 820.35,325.37 911.71,363.71 948.34,550.00 490.94,501.51" stroke="blue" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round" />
+  <text x="500.0" y="30" font-family="Verdana" font-size="20" style="text-anchor: middle; fill:orange;">Chang International Circuit (vista aérea)</text>
+  <circle cx="490.93711467379603" cy="501.50862068965864" r="3" fill="red" />
+</svg>
