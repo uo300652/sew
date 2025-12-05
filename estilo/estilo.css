@@ -1,0 +1,132 @@
+/* Matias Valle Trapiella UO300652 */
+/* Estilos generales del proyecto MotoGP-Desktop: ... */
+/* Reglas para adaptar el estilo de las tablas en dispositivos móviles (320px - 799px):
+   - Ajusta tamaño de fuente de la tabla para mejorar legibilidad
+     REDEFINICIÓN: Se modifica font-size de valor por defecto a 0.8em
+   - Ajusta tamaño de fuente de los encabezados de la tabla relativo al ancho del viewport
+     REDEFINICIÓN: Se modifica font-size de encabezados a 3vw
+   - Evita que las palabras se corten a la mitad en los encabezados
+     REDEFINICIÓN: word-break de break-word a normal
+   - Permite que el texto haga wrap natural en encabezados
+     REDEFINICIÓN: white-space de nowrap a normal
+   - Evita que palabras largas se partan dentro de los encabezados
+     REDEFINICIÓN: overflow-wrap de break-word a normal
+*/
+
+/* Especificidad: 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* hereda a todos los elementos de texto */
+    background-color: #ffffff; /* Color de fondo de todos los elementos */
+    color: #000000;            /* Color de primer plano para el texto de todos los elementos */
+}
+
+/* Especificidad: 001 */
+header {
+    background-color: #3232e8; /* Fondo del header */
+}
+
+/* Especificidad: 003, 003 */
+header h1 a, header nav a {
+    color: #ffffff; /* Sobrescribe el color heredado de body */
+    text-decoration-line: none;
+}
+
+/* Especificidad: 001 */
+h1 {
+    color: #ffffff; /* Sobrescribe el color heredado de body */
+}
+
+/* Especificidad: 010 */
+.active {
+    color: #26FF00; /* Sobrescribe color de enlaces normales */
+}
+
+/* Especificidad: 002 */
+header + p {
+    font-size: 0.8em; /* Texto de subtítulo del header, sobrescribe herencia de body */
+}
+
+/* Especificidad: 002, 002 */
+textarea + span,
+input + span {
+    color: #FF0000;
+}
+
+/* ===== ESTILO TABLA ===== */
+
+/* Especificidad: 001 */
+table {
+    border: 0.1rem solid #8b4fb8;
+    background-color: #fdf8ff;
+    font-family: Arial, Helvetica, sans-serif; /* Sobrescribe la herencia de body para asegurarse */
+}
+
+/* Especificidad: 001 */
+caption {
+    font-family: Arial, Helvetica, sans-serif; /* Sobrescribe herencia */
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #3232e8;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+/* Zebra stripes */
+/* Especificidad: 012 */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Filas impares */
+}
+
+/* Especificidad: 012 */
+tbody tr:nth-child(even) {
+    background-color: #eaeaea; /* Filas pares */
+}
+
+/* Hover fila */
+/* Especificidad: 002 */
+tbody tr:hover {
+    background-color: #e3f2fd; /* Cambia fondo al pasar el cursor */
+}
+
+/* Encabezados de la tabla */
+/* Especificidad: 002 */
+thead th {
+    background-color: #5c6bc0;
+    color: #ffffff;
+    text-align: center;  
+    white-space: normal;       /* Permite wrap de texto */
+    word-break: break-word;     /* Solo rompe palabras muy largas */
+    line-height: 1.2em;        /* Ajusta altura de línea */
+}
+
+/* Bordes de celdas */
+/* Especificidad: 001 */
+th,
+td {
+    vertical-align: top;        /* Alinea contenido al inicio de la celda */
+    border: 0.05rem solid #d1b8f2;
+}
+
+/* Cabeceras de fila */
+/* Especificidad: 011 */
+tbody th {
+    background-color: #5c6bc0;  /* Sobrescribe fondo heredado de tbody tr */
+    color: #ffffff;             /* Sobrescribe color heredado de body o tbody tr */
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+  /* Especificidad: 001 */
+  table {
+      font-size: 0.8em; /* Ajusta tamaño de fuente relativo al contenedor en móviles */
+  }
+
+  /* Especificidad: 002 */
+  thead th {
+      font-size: 3vw;           /* Tamaño relativo al ancho del viewport */
+      word-break: normal;       /* Evita cortar palabras a la mitad */
+      white-space: normal;      /* Permite wrap natural */
+      overflow-wrap: normal;    /* Evita cortar palabras largas */
+  }
+}

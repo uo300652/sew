@@ -1,0 +1,109 @@
+/* Matias Valle Trapiella UO300652*/
+/* Reglas para aplicar esquemas de posicionamiento de los elementos del proyecto MotoGP-Desktop:
+Media query para dispositivos móviles (320px - 799px) redifine las siguientes propiedades:
+Cambiar el Flexbox del header a vertical
+REDEFINICIÓN: Se modifica flex-direction de row a column
+REDEFINICIÓN: Se modifica align-items de center a flex-start
+Ocultar migas de navegación en móviles
+REDEFINICIÓN: Se modifica display de block a none 
+Adaptabilidad para video 
+REDEFINICIÓN: Se modifica width del valor por defecto a 100% 
+REDEFINICIÓN: Se modifica height del valor por defecto a auto 
+Adaptabilidad para audio 
+REDEFINICIÓN: Se modifica width del valor por defecto a 100% 
+*/
+
+/* Especificidad: 001 */
+nav {
+    display: flex;                /* Flexbox para distribuir enlaces */
+    flex: 1;                       /* Ocupa todo el espacio disponible */
+    justify-content: space-around; /* Distribuye enlaces equitativamente */
+    align-items: center;           /* Alinea verticalmente al centro */
+}
+
+/* Especificidad: 001 */
+header {
+    display: flex;                 /* Flexbox principal del header */
+    flex: 1;                       /* Ocupa todo el ancho disponible */
+    justify-content: space-around; /* Distribuye h1 y nav */
+    align-items: center;           /* Alinea verticalmente al centro */
+}
+
+/* Especificidad: 002 */
+header h1 {
+    margin-left: 0.8em; /* Sobrescribe herencia de margen predeterminado */
+}
+
+/* Especificidad: 002 */
+body > div {
+    width: 80vw;  /* ancho relativo al viewport */
+    height: 80vh; /* altura relativa al viewport */
+}
+
+/* ===== LAYOUT TABLA ===== */
+
+/* Especificidad: 004 */
+section > p + table {
+    width: 50%; /* tabla dentro de section, seleccionada por posición */
+}
+
+/* Especificidad: 001 */
+table {
+    width: 100%;           /* ocupa todo el ancho disponible */
+    table-layout: fixed;   /* columnas distribuidas uniformemente */
+    border-collapse: collapse; /* bordes colapsados */
+}
+
+/* Especificidad: 001 */
+svg {
+    width: 100%;    
+    height: auto;    
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+
+    /* Especificidad: 005 */
+    table, section > p + table {
+        width: 100%;       /* tablas ocupan todo el ancho en móviles */
+        table-layout: auto; /* columnas se adaptan al contenido */
+    }
+
+    /* Cambiar flexbox del header a vertical */
+    /* Especificidad: 003 */
+    header, header h1, header nav {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+    
+    /* Ocultar subtítulo/migas de navegación en móviles */
+    /* Especificidad: 002 */
+    header + p {
+        display: none; /* sobrescribe herencia display:block */
+    }
+
+    /* Ajuste de imagen después de h2 */
+    article h2 + img {
+        width: 100%; /* ancho relativo al contenedor */
+        height: auto; /* mantiene proporción */
+    }
+
+    /* Especificidad: 002 */
+    body > div {
+        width: 100%;  /* sobrescribe ancho definido anteriormente (80vw) */
+        height: 60vh; /* sobrescribe altura definida anteriormente (80vh) */
+    }
+
+    header nav a {
+        flex: 1;           /* enlaces ocupan igual espacio */
+        padding: 0.5em;    /* sobrescribe padding heredado si existiera */
+    }   
+
+    video {
+        width: 100%; /* video ocupa todo el ancho disponible */
+        height: auto; /* mantiene proporción */
+    }
+
+    audio {
+        width: 100%; /* audio ocupa todo el ancho disponible */
+    }
+}
