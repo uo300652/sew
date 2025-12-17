@@ -1,0 +1,50 @@
+/* Matías Valle Trapiella UO300652 */
+/* Reglas para aplicar esquemas de posicionamiento del juego de memoria en dispositivos móviles (320px - 799px):
+Media query para dispositivos móviles redifine las siguientes propiedades:
+Cambiar la cuadrícula de cartas de 4 columnas a 2 columnas
+REDEFINICIÓN: Se modifica grid-template-columns de repeat(4, 1fr) a repeat(2, 1fr)
+REDEFINICIÓN: Se modifica margin-bottom del encabezado para optimizar el espaciado en pantallas pequeñas
+*/
+
+/* layoutcards.css - Grid layout para el juego de memoria */
+
+/* Especificidad: 001 */
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas para las cartas */
+    grid-gap: 1em;
+    padding: 3em;
+}
+
+/* Especificidad: 001 */
+p {
+    grid-column: 1 / -1;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+/* Especificidad: 002, 002 */
+main > h2, h2 + p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Media query para dispositivos móviles (320px - 799px) */
+@media (min-width: 320px) and (max-width: 799px) {
+
+    /* Especificidad: 001 */
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        /* Redefinición documentada:
+           grid-template-columns pasa de repeat(4, 1fr) a repeat(2, 1fr)
+           para mejorar la visualización en pantallas pequeñas */
+    }
+
+    /* Especificidad: 002 */
+    main > h2 {
+        margin-bottom: 0.5em;
+        /* Redefinición documentada:
+           margin-bottom pasa de 1em a 0.5em para ajustar el espaciado vertical en móviles */
+    }
+}
