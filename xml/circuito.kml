@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Origen</name>
+      <description>Punto de origen</description>
+      <Point>
+        <coordinates>103.084631,14.958563,179.77</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 1</name>
+      <description>Punto de tramo 1</description>
+      <Point>
+        <coordinates>103.082364,14.959569,179.83</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 2</name>
+      <description>Punto de tramo 2</description>
+      <Point>
+        <coordinates>103.082253,14.959689,179.18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 3</name>
+      <description>Punto de tramo 3</description>
+      <Point>
+        <coordinates>103.082245,14.959844,179.24</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 4</name>
+      <description>Punto de tramo 4</description>
+      <Point>
+        <coordinates>103.08347,14.964903,173.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 5</name>
+      <description>Punto de tramo 5</description>
+      <Point>
+        <coordinates>103.083952,14.968485,168.9</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 6</name>
+      <description>Punto de tramo 6</description>
+      <Point>
+        <coordinates>103.084205,14.968694,166.29</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 7</name>
+      <description>Punto de tramo 7</description>
+      <Point>
+        <coordinates>103.08445,14.968688,165.43</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 8</name>
+      <description>Punto de tramo 8</description>
+      <Point>
+        <coordinates>103.08466,14.968542,164.62</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 9</name>
+      <description>Punto de tramo 9</description>
+      <Point>
+        <coordinates>103.084777,14.968329,165.06</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 10</name>
+      <description>Punto de tramo 10</description>
+      <Point>
+        <coordinates>103.083702,14.961267,177.95</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 11</name>
+      <description>Punto de tramo 11</description>
+      <Point>
+        <coordinates>103.083697,14.96091,177.95</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 12</name>
+      <description>Punto de tramo 12</description>
+      <Point>
+        <coordinates>103.083861,14.96055,170.99</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 13</name>
+      <description>Punto de tramo 13</description>
+      <Point>
+        <coordinates>103.085444,14.959002,176.35</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 14</name>
+      <description>Punto de tramo 14</description>
+      <Point>
+        <coordinates>103.08563,14.95891,177.3</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 15</name>
+      <description>Punto de tramo 15</description>
+      <Point>
+        <coordinates>103.085837,14.958974,177.85</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 16</name>
+      <description>Punto de tramo 16</description>
+      <Point>
+        <coordinates>103.085978,14.95915,178.12</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 17</name>
+      <description>Punto de tramo 17</description>
+      <Point>
+        <coordinates>103.086215,14.959705,180.81</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 18</name>
+      <description>Punto de tramo 18</description>
+      <Point>
+        <coordinates>103.086222,14.959958,182.81</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 19</name>
+      <description>Punto de tramo 19</description>
+      <Point>
+        <coordinates>103.086133,14.960195,180.35</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 20</name>
+      <description>Punto de tramo 20</description>
+      <Point>
+        <coordinates>103.085951,14.960414,178.01</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 21</name>
+      <description>Punto de tramo 21</description>
+      <Point>
+        <coordinates>103.084989,14.960897,180.33</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 22</name>
+      <description>Punto de tramo 22</description>
+      <Point>
+        <coordinates>103.084863,14.961018,179.68</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 23</name>
+      <description>Punto de tramo 23</description>
+      <Point>
+        <coordinates>103.084676,14.961428,178.75</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 24</name>
+      <description>Punto de tramo 24</description>
+      <Point>
+        <coordinates>103.084656,14.961684,177.92</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 25</name>
+      <description>Punto de tramo 25</description>
+      <Point>
+        <coordinates>103.084971,14.96406,175.69</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 26</name>
+      <description>Punto de tramo 26</description>
+      <Point>
+        <coordinates>103.085029,14.964254,175.05</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 27</name>
+      <description>Punto de tramo 27</description>
+      <Point>
+        <coordinates>103.085175,14.964402,174.53</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 28</name>
+      <description>Punto de tramo 28</description>
+      <Point>
+        <coordinates>103.085379,14.964472,174.85</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 29</name>
+      <description>Punto de tramo 29</description>
+      <Point>
+        <coordinates>103.086538,14.964648,175.08</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 30</name>
+      <description>Punto de tramo 30</description>
+      <Point>
+        <coordinates>103.086774,14.964614,174.6</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 31</name>
+      <description>Punto de tramo 31</description>
+      <Point>
+        <coordinates>103.086969,14.96449,174.17</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 32</name>
+      <description>Punto de tramo 32</description>
+      <Point>
+        <coordinates>103.087078,14.964262,174.96</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 33</name>
+      <description>Punto de tramo 33</description>
+      <Point>
+        <coordinates>103.087087,14.964044,174.58</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 34</name>
+      <description>Punto de tramo 34</description>
+      <Point>
+        <coordinates>103.087003,14.963879,173.55</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 35</name>
+      <description>Punto de tramo 35</description>
+      <Point>
+        <coordinates>103.086695,14.963585,174.57</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 36</name>
+      <description>Punto de tramo 36</description>
+      <Point>
+        <coordinates>103.086509,14.963351,176.67</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 37</name>
+      <description>Punto de tramo 37</description>
+      <Point>
+        <coordinates>103.086402,14.963087,178.26</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 38</name>
+      <description>Punto de tramo 38</description>
+      <Point>
+        <coordinates>103.086369,14.962826,177.79</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 39</name>
+      <description>Punto de tramo 39</description>
+      <Point>
+        <coordinates>103.086412,14.962486,177.81</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 40</name>
+      <description>Punto de tramo 40</description>
+      <Point>
+        <coordinates>103.086755,14.961896,175.83</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 41</name>
+      <description>Punto de tramo 41</description>
+      <Point>
+        <coordinates>103.086858,14.961718,176.38</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 42</name>
+      <description>Punto de tramo 42</description>
+      <Point>
+        <coordinates>103.08691,14.961553,177.2</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 43</name>
+      <description>Punto de tramo 43</description>
+      <Point>
+        <coordinates>103.086922,14.961365,178.0</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 44</name>
+      <description>Punto de tramo 44</description>
+      <Point>
+        <coordinates>103.087131,14.957715,177.33</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 45</name>
+      <description>Punto de tramo 45</description>
+      <Point>
+        <coordinates>103.08713,14.957565,177.33</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 46</name>
+      <description>Punto de tramo 46</description>
+      <Point>
+        <coordinates>103.087025,14.957475,178.07</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 47</name>
+      <description>Punto de tramo 47</description>
+      <Point>
+        <coordinates>103.086859,14.957515,178.47</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tramo 48</name>
+      <description>Punto de tramo 48</description>
+      <Point>
+        <coordinates>103.084631,14.958563,179.77</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Chang International Circuit</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>103.084631,14.958563,179.77
+103.082364,14.959569,179.83
+103.082253,14.959689,179.18
+103.082245,14.959844,179.24
+103.08347,14.964903,173.0
+103.083952,14.968485,168.9
+103.084205,14.968694,166.29
+103.08445,14.968688,165.43
+103.08466,14.968542,164.62
+103.084777,14.968329,165.06
+103.083702,14.961267,177.95
+103.083697,14.96091,177.95
+103.083861,14.96055,170.99
+103.085444,14.959002,176.35
+103.08563,14.95891,177.3
+103.085837,14.958974,177.85
+103.085978,14.95915,178.12
+103.086215,14.959705,180.81
+103.086222,14.959958,182.81
+103.086133,14.960195,180.35
+103.085951,14.960414,178.01
+103.084989,14.960897,180.33
+103.084863,14.961018,179.68
+103.084676,14.961428,178.75
+103.084656,14.961684,177.92
+103.084971,14.96406,175.69
+103.085029,14.964254,175.05
+103.085175,14.964402,174.53
+103.085379,14.964472,174.85
+103.086538,14.964648,175.08
+103.086774,14.964614,174.6
+103.086969,14.96449,174.17
+103.087078,14.964262,174.96
+103.087087,14.964044,174.58
+103.087003,14.963879,173.55
+103.086695,14.963585,174.57
+103.086509,14.963351,176.67
+103.086402,14.963087,178.26
+103.086369,14.962826,177.79
+103.086412,14.962486,177.81
+103.086755,14.961896,175.83
+103.086858,14.961718,176.38
+103.08691,14.961553,177.2
+103.086922,14.961365,178.0
+103.087131,14.957715,177.33
+103.08713,14.957565,177.33
+103.087025,14.957475,178.07
+103.086859,14.957515,178.47
+103.084631,14.958563,179.77</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>
