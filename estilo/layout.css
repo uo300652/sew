@@ -1,0 +1,159 @@
+/* Matias Valle Trapiella UO300652*/
+/* Reglas para aplicar esquemas de posicionamiento de los elementos del proyecto MotoGP-Desktop:
+Media query para dispositivos móviles (320px - 799px) redifine las siguientes propiedades:
+Cambiar el Flexbox del header a vertical
+REDEFINICIÓN: Se modifica flex-direction de row a column
+REDEFINICIÓN: Se modifica align-items de center a flex-end
+Ocultar migas de navegación en móviles
+REDEFINICIÓN: Se modifica display de block a none 
+Adaptabilidad para video 
+REDEFINICIÓN: Se modifica width del valor por defecto a 100% 
+REDEFINICIÓN: Se modifica height del valor por defecto a auto 
+Adaptabilidad para audio 
+REDEFINICIÓN: Se modifica width del valor por defecto a 100% 
+*/
+
+/* Especificidad: 001 */
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Especificidad: 001 */
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Especificidad: 002 */
+header h1 {
+    margin-left: 0.8em;
+}
+
+/* Especificidad: 002 */
+body > div {
+    width: 80vw;
+    height: 80vh;
+}
+
+/* ===== LAYOUT TABLA ===== */
+
+/* Especificidad: 003 */
+section > p + table {
+    width: 50%;
+}
+
+/* Especificidad: 001 */
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+/*Especidad: 001, 001*/
+th,
+td {
+    vertical-align: top;
+}
+
+/* Especificidad: 001 */
+svg {
+    width: 100%;
+    height: auto;
+}
+
+/* Especificidad: 002 */
+header > button {
+    display: none;
+    /* Redefinición documentada en media query: display cambia de none a flex */
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+
+    /* Especificidad: 002 */
+    header > button {
+        display: flex;
+        align-self: flex-end;
+        /* Redefinición display: none → flex (adaptación a móviles) */
+    }
+
+    /* Especificidad: 012 */
+    header > nav[hidden] {
+        display: none;
+        /* Redefinición de display controlada para ocultar navegación */
+    }
+
+    /* Especificidad: 001, 003 */
+    table, section > p + table {
+        width: 100%;
+        /* Redefinición width: 50% / 100% → 100% en móviles */
+        table-layout: auto;
+        /* Redefinición table-layout: fixed → auto para mejor adaptación */
+    }
+
+    /* Especificidad: 001 */
+    header {
+        display: flex;
+        /* Redefinición display reiterada para asegurar comportamiento en móviles */
+        flex-direction: column;
+        /* Redefinición flex-direction: row → column */
+        align-items: flex-end;
+        /* Redefinición align-items: center → flex-end */
+    }
+
+    /* Especificidad: 002 */
+    header h1 {
+        align-self: flex-start;
+    }
+
+    /* Especificidad: 002 */
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    /* Especificidad: 002 */
+    header + p {
+        display: none;
+        /* Redefinición display: block → none (ocultar migas en móviles) */
+    }
+
+    /* Especificidad: 003 */
+    article h2 + img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Especificidad: 002 */
+    body > div {
+        width: 100%;
+        /* Redefinición width: 80vw → 100% en móviles */
+        height: 60vh;
+        /* Redefinición height: 80vh → 60vh en móviles */
+    }
+
+    /* Especificidad: 003 */
+    header nav a {
+        flex: 1;
+        padding: 0.5em;
+    }
+
+    /* Especificidad: 001 */
+    video {
+        width: 100%;
+        /* Redefinición width por adaptabilidad */
+        height: auto;
+        /* Redefinición height para mantener proporción */
+    }
+
+    /* Especificidad: 001 */
+    audio {
+        width: 100%;
+        /* Redefinición width por adaptabilidad */
+    }
+}

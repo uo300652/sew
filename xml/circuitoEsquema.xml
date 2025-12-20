@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuito
+xmlns="http://www.uniovi.es"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.uniovi.es circuito.xsd"
+>
+    <nombre>Chang International Circuit</nombre>
+    <longitud cantidad="4553" unidad="metros"></longitud>
+    <anchuraMedia cantidad="12" unidad="metros"></anchuraMedia>
+    <fecha>2025-03-02</fecha>
+    <horaInicio>09:00:00+01:00</horaInicio>
+    <numeroVueltas>26</numeroVueltas>
+    <localidadProxima>Buriram</localidadProxima>
+    <pais>Tailandia</pais>
+    <patrocinador>PTT</patrocinador>
+
+    <referencias>
+        <referencia fuente="Wikipedia" enlace="https://es.wikipedia.org/wiki/Circuito_Internacional_de_Chang">
+            Ofrece información detallada sobre el circuito, incluyendo su ubicación, características y eventos importantes.
+        </referencia>
+        <referencia fuente="Vetkuro" enlace="https://vetkuro.com/tracks/buriram">
+            Presenta una descripción del circuito, su infraestructura y su historia en el ámbito del automovilismo.
+        </referencia>
+        <referencia fuente="Motorsport Guides" enlace="https://motorsportguides.com/chang-international-circuit/">
+            El Chang International Circuit es un moderno circuito de carreras situado en Buriram, Tailandia. Inaugurado en 2014, es el primer circuito en Tailandia con certificación FIA Grado 1 y FIM Grado A.
+        </referencia>
+    </referencias>
+
+    <fotografias>
+        <fotografia url="./multimedia/LineaDeMeta.jpg" descripcion="Fotografia de la linea de meta"/>
+         <fotografia url="./multimedia/LineaDeMetaCarrera.jpg" descripcion="Fotografia de la linea de meta mientras que trascurre una carrera"/>
+          <fotografia url="./multimedia/Panorama.jpg" descripcion="Fotografia de la vista general del Chang International Circuit" />
+    </fotografias>
+
+    <videos>
+        <video url="./multimedia/ChangInternationalCircuit_video.mp4" descripcion="Video de una moto corriendo anunciando la carrera en el Chang International Circuit" />
+    </videos>
+
+    <puntoOrigen>
+        <longitudPunto cantidad="103.084631" unidad="grados"></longitudPunto>
+        <latitud cantidad="14.958563" unidad="grados"></latitud>
+        <altitud cantidad="179.77" unidad="metros"></altitud>
+    </puntoOrigen>
+
+    <tramos>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.082364" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959569" unidad="grados"></latitud>
+                <altitud cantidad="179.83" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="269.32" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.082253" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959689" unidad="grados"></latitud>
+                <altitud cantidad="179.18" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="17.75" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.082245" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959844" unidad="grados"></latitud>
+                <altitud cantidad="179.24" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="17.55" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.083470" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964903" unidad="grados"></latitud>
+                <altitud cantidad="173" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="565.27" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.083952" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.968485" unidad="grados"></latitud>
+                <altitud cantidad="168.9" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="400.32" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084205" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.968694" unidad="grados"></latitud>
+                <altitud cantidad="166.29" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="35.24" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084450" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.968688" unidad="grados"></latitud>
+                <altitud cantidad="165.43" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="27" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084660" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.968542" unidad="grados"></latitud>
+                <altitud cantidad="164.62" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="27.86" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084777" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.968329" unidad="grados"></latitud>
+                <altitud cantidad="165.06" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="27.38" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.083702" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961267" unidad="grados"></latitud>
+                <altitud cantidad="177.95" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="778.27" unidad="metros"></distancia>
+            <sector>1</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.083697" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.960910" unidad="grados"></latitud>
+                <altitud cantidad="177.95" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="40.5" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.083861" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.960550" unidad="grados"></latitud>
+                <altitud cantidad="170.99" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="45.6" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085444" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959002" unidad="grados"></latitud>
+                <altitud cantidad="176.35" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="242.56" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085630" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.958910" unidad="grados"></latitud>
+                <altitud cantidad="177.3" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="22.2" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085837" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.958974" unidad="grados"></latitud>
+                <altitud cantidad="177.85" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="23.16" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085978" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959150" unidad="grados"></latitud>
+                <altitud cantidad="178.12" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="24.38" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086215" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959705" unidad="grados"></latitud>
+                <altitud cantidad="180.81" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="66.53" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086222" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.959958" unidad="grados"></latitud>
+                <altitud cantidad="182.81" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="28.06" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086133" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.960195" unidad="grados"></latitud>
+                <altitud cantidad="180.35" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="28.64" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085951" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.960414" unidad="grados"></latitud>
+                <altitud cantidad="178.01" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="31" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084989" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.960897" unidad="grados"></latitud>
+                <altitud cantidad="180.33" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="116.35" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084863" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961018" unidad="grados"></latitud>
+                <altitud cantidad="179.68" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="19.57" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084676" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961428" unidad="grados"></latitud>
+                <altitud cantidad="178.75" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="49.02" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084656" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961684" unidad="grados"></latitud>
+                <altitud cantidad="177.92" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="28.06" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084971" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964060" unidad="grados"></latitud>
+                <altitud cantidad="175.69" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="265.05" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085029" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964254" unidad="grados"></latitud>
+                <altitud cantidad="175.05" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="22.37" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085175" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964402" unidad="grados"></latitud>
+                <altitud cantidad="174.53" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="23.15" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.085379" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964472" unidad="grados"></latitud>
+                <altitud cantidad="174.85" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="23.5" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086538" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964648" unidad="grados"></latitud>
+                <altitud cantidad="175.08" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="127.06" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086774" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964614" unidad="grados"></latitud>
+                <altitud cantidad="174.6" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="25.8" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086969" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964490" unidad="grados"></latitud>
+                <altitud cantidad="174.17" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="24.37" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.087078" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964262" unidad="grados"></latitud>
+                <altitud cantidad="174.96" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="28.61" unidad="metros"></distancia>
+            <sector>2</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.087087" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.964044" unidad="grados"></latitud>
+                <altitud cantidad="174.58" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="24.66" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.087003" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.963879" unidad="grados"></latitud>
+                <altitud cantidad="173.55" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="20.35" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086695" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.963585" unidad="grados"></latitud>
+                <altitud cantidad="174.57" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="46.42" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086509" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.963351" unidad="grados"></latitud>
+                <altitud cantidad="176.67" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="33.31" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086402" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.963087" unidad="grados"></latitud>
+                <altitud cantidad="178.26" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="33.01" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086369" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.962826" unidad="grados"></latitud>
+                <altitud cantidad="177.79" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="29.62" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086412" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.962486" unidad="grados"></latitud>
+                <altitud cantidad="177.81" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="37.75" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086755" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961896" unidad="grados"></latitud>
+                <altitud cantidad="175.83" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="74.65" unidad="metros"></distancia>
+            <sector>3</sector> 
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086858" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961718" unidad="grados"></latitud>
+                <altitud cantidad="176.38" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="22.32" unidad="metros"></distancia>
+            <sector>3</sector> 
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086910" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961553" unidad="grados"></latitud>
+                <altitud cantidad="177.2" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="19.37" unidad="metros"></distancia>
+            <sector>3</sector> 
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086922" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.961365" unidad="grados"></latitud>
+                <altitud cantidad="178" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="20.97" unidad="metros"></distancia>
+            <sector>3</sector> 
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.087131" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.957715" unidad="grados"></latitud>
+                <altitud cantidad="177.33" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="403.83" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.087130" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.957565" unidad="grados"></latitud>
+                <altitud cantidad="177.33" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="16.52" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.087025" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.957475" unidad="grados"></latitud>
+                <altitud cantidad="178.07" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="15" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.086859" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.957515" unidad="grados"></latitud>
+                <altitud cantidad="178.47" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="18.1" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+        <tramo>
+            <punto>
+                <longitudPunto cantidad="103.084631" unidad="grados"></longitudPunto>
+                <latitud cantidad="14.958563" unidad="grados"></latitud>
+                <altitud cantidad="179.77" unidad="metros"></altitud>
+            </punto>
+            <distancia cantidad="266.28" unidad="metros"></distancia>
+            <sector>3</sector>
+        </tramo>
+    </tramos>
+
+    <vencedor>Marc Márquez</vencedor>
+    <tiempoVencedor>PT1M30.637S</tiempoVencedor>
+
+    <clasificados>
+        <clasificado>Marc Márquez</clasificado>
+        <clasificado>Álex Márquez</clasificado>
+        <clasificado>Francesco Bagnaia</clasificado>
+    </clasificados>
+
+</circuito>
